@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.vending-machine-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.button {
+  background-color: lightseagreen;
+  padding: 10px;
+  margin: 5px;
+}
+
+.money-maker-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.money-maker {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-item {
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.penny,
+.nickel,
+.dime,
+.quarter {
+  height: 60px;
+  width: 60px;
+  background-color: silver;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.penny {
+  background-color: #cd7f32;
+}
+
+.money-button {
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.light-bulb-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.light-bulb {
+  background-color: lightgrey;
+  border: 1px solid black;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.light-button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.on {
+  background-color: yellow;
+  color: #000;
+}

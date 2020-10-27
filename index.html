@@ -7,6 +7,43 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="vending-machine-container">
+      <p class="priceTotal"></p>
+      <button class="popButton button" data-price="2.00">Lime Cola</button>
+      <button class="snackButton button" data-price="3.00">
+        Salted Peanuts
+      </button>
+      <button class="chocolateButton button" data-price="4.00">
+        Chocolate Bar
+      </button>
+      <button class="fruitButton button" data-price="6.00">
+        Fruit Gummies
+      </button>
+    </div>
+
+    <div class="money-maker-container">
+      <form class="money-maker">
+        <label class="form-item" for="number">How many?</label>
+        <input type="number" , id="number" , name="number" , placeholder="0" />
+        <label class="form-item" for="coin">Which coin?</label>
+        <select name="coin" id="coin">
+          <option class="penny" value="penny">Penny</option>
+          <option class="nickel" value="nickel">Nickel</option>
+          <option class="dime" value="dime">Dime</option>
+          <option class="quarter" value="quarter">Quarter</option>
+        </select>
+        <button class="money-button">Make Money!</button>
+      </form>
+      <div class="coin-container"></div>
+    </div>
+
+    <div class="light-bulb-container">
+      <div class="light-bulb"></div>
+      <button class="light-button onbutton">on</button>
+      <button class="light-button offbutton">off</button>
+      <button class="light-button togglebutton">toggle</button>
+      <button class="light-button endbutton">end</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
